@@ -567,6 +567,7 @@ ol {
   max-width: 75vw;
   object-fit: contain;
   animation: loaderPulse 1.5s ease-in-out infinite;
+  filter: brightness(0) invert(1);
 }
 .loader__bar {
   width: 180px;

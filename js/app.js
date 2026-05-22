@@ -377,8 +377,8 @@ const FOOTER_HTML = `
     <address style="font-style:normal">
       <p class="footer__col-title">Contact</p>
       <span class="footer__col-link">📍 Victoria Island, Lagos</span>
-      <a class="footer__col-link" href="tel:+2348000000000">📞 +234 800 000 0000</a>
-      <a class="footer__col-link" href="mailto:hello@esthington.com">✉ hello@esthington.com</a>
+      <a class="footer__col-link" href="tel:+2348062105815">📞 +234 806 210 5815</a>
+      <a class="footer__col-link" href="mailto:info@esthingtonsmarthub.com">✉ info@esthingtonsmarthub.com</a>
       <span class="footer__col-link">🕐 Mon–Fri: 8am – 6pm</span>
     </address>
   </div>
