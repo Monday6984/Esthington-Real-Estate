@@ -562,6 +562,10 @@ ol {
   visibility: hidden;
 }
 .loader__logo {
+  width: 220px;
+  height: auto;
+  max-width: 75vw;
+  object-fit: contain;
   animation: loaderPulse 1.5s ease-in-out infinite;
 }
 .loader__bar {
