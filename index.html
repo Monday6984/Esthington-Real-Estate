@@ -1,0 +1,1577 @@
+﻿<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Esthington Real Estate | Smart Investors Hub — Lagos, Nigeria</title>
+    <meta
+      name="description"
+      content="Esthington Real Estate is Lagos's premier smart investment hub. Find luxury homes, commercial properties, and curated investment opportunities in Victoria Island, Lekki, Ikoyi and beyond."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Esthington Real Estate" />
+    <link rel="canonical" href="https://www.esthington.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.esthington.com/" />
+    <meta
+      property="og:title"
+      content="Esthington Real Estate | Smart Investors Hub"
+    />
+    <meta
+      property="og:description"
+      content="Lagos's premier real estate investment hub. Luxury homes, commercial properties, and curated investment opportunities."
+    />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&q=80"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_NG" />
+    <meta property="og:site_name" content="Esthington Real Estate" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@esthington" />
+    <meta
+      name="twitter:title"
+      content="Esthington Real Estate | Smart Investors Hub"
+    />
+    <meta
+      name="twitter:description"
+      content="Lagos's premier real estate investment hub."
+    />
+    <meta
+      name="twitter:image"
+      content="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&q=80"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Montserrat:wght@300;400;600;700&display=swap"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2032%2032%27%3E%3Crect%20width%3D%2732%27%20height%3D%2732%27%20rx%3D%276%27%20fill%3D%27%235B2D8E%27%2F%3E%3Ctext%20y%3D%2724%27%20x%3D%276%27%20font-size%3D%2722%27%20font-family%3D%27serif%27%20fill%3D%27%23F5A623%27%20font-weight%3D%27700%27%3EE%3C%2Ftext%3E%3C%2Fsvg%3E"
+    />
+    <!-- Preload critical LCP image (hero card — desktop only, above fold) -->
+    <link
+      rel="preload"
+      as="image"
+      href="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=920&q=75&auto=format"
+      fetchpriority="high"
+    />
+    <!-- PWA / browser chrome -->
+    <meta name="theme-color" content="#1E2A5E" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="Esthington" />
+    <!-- Local SEO -->
+    <meta name="geo.region" content="NG-LA" />
+    <meta name="geo.placename" content="Lagos, Nigeria" />
+    <meta name="geo.position" content="6.4281;3.4219" />
+    <meta name="ICBM" content="6.4281, 3.4219" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "RealEstateAgent",
+        "name": "Esthington Real Estate",
+        "alternateName": "Smart Investors Hub",
+        "url": "https://www.esthington.com",
+        "description": "Lagos premier real estate investment hub offering luxury residential, commercial, and investment properties.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "12 Marina Way",
+          "addressLocality": "Victoria Island",
+          "addressRegion": "Lagos",
+          "addressCountry": "NG"
+        },
+        "telephone": "+2348000000000",
+        "email": "hello@esthington.com",
+        "openingHours": ["Mo-Fr 08:00-18:00", "Sa 09:00-14:00"],
+        "priceRange": "₦₦₦",
+        "areaServed": [
+          "Victoria Island",
+          "Lekki",
+          "Ikoyi",
+          "Ikeja",
+          "Eko Atlantic"
+        ],
+        "sameAs": [
+          "https://twitter.com/esthington",
+          "https://linkedin.com/company/esthington",
+          "https://facebook.com/esthington"
+        ]
+      }
+    </script>
+
+    <!--
+    EARLY APP GUARD — synchronous, inline, ~400 bytes.
+    Runs before any user interaction is possible.
+    Installs a safe proxy on window.App that queues calls
+    made during the defer gap (while app.js is still loading).
+    The real app.js drains this queue on execution.
+  -->
+    <script>
+      (function () {
+        window.__appQueue = [];
+        /* Proxy every method call into the queue */
+        var METHODS = [
+          "goto",
+          "toggleNav",
+          "closeNav",
+          "filterProperties",
+          "showProperty",
+          "toggleSave",
+          "handleContact",
+          "handleViewing",
+          "showToast",
+        ];
+        var proxy = {};
+        METHODS.forEach(function (m) {
+          proxy[m] = function () {
+            /* If real App already loaded (queue drained), call directly */
+            if (window.__appQueue === null) {
+              return;
+            }
+            window.__appQueue.push({
+              method: m,
+              args: Array.prototype.slice.call(arguments),
+            });
+          };
+        });
+        window.App = proxy;
+      })();
+    </script>
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <div
+      class="loader"
+      id="loader"
+      role="status"
+      aria-label="Loading Esthington Real Estate"
+    >
+      <svg
+        class="loader__logo"
+        width="100"
+        height="100"
+        viewBox="0 0 100 100"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <circle
+          cx="50"
+          cy="50"
+          r="46"
+          stroke="#5B2D8E"
+          stroke-width="3"
+          fill="none"
+          opacity=".4"
+        />
+        <text
+          x="50"
+          y="66"
+          text-anchor="middle"
+          font-family="Playfair Display,serif"
+          font-size="42"
+          font-weight="700"
+          fill="#F5A623"
+        >
+          E
+        </text>
+      </svg>
+      <div
+        class="loader__bar"
+        role="progressbar"
+        aria-valuenow="0"
+        aria-valuemin="0"
+        aria-valuemax="100"
+      >
+        <div class="loader__fill"></div>
+      </div>
+    </div>
+
+    <nav class="nav" id="mainNav" aria-label="Main navigation">
+      <button
+        class="nav__logo"
+        onclick="App.goto('home')"
+        aria-label="Esthington Real Estate — return to homepage"
+      >
+        <img
+          src="images/header_Logo.png"
+          class="nav__logo-img"
+          alt="Esthington Real Estate"
+        />
+      </button>
+      <div class="nav__links" id="navLinks">
+        <button
+          class="nav__link active"
+          id="nav-home"
+          onclick="App.goto('home')"
+          aria-current="page"
+        >
+          Home
+        </button>
+        <button class="nav__link" id="nav-about" onclick="App.goto('about')">
+          About
+        </button>
+        <button
+          class="nav__link"
+          id="nav-services"
+          onclick="App.goto('services')"
+        >
+          Services
+        </button>
+        <button
+          class="nav__link"
+          id="nav-properties"
+          onclick="App.goto('properties')"
+        >
+          Properties
+        </button>
+        <button
+          class="nav__link nav__link--cta"
+          id="nav-contact"
+          onclick="App.goto('contact')"
+        >
+          Contact Us
+        </button>
+      </div>
+      <button
+        class="nav__burger"
+        id="navBurger"
+        onclick="App.toggleNav()"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="navLinks"
+      >
+        <span class="nav__bar"></span>
+        <span class="nav__bar"></span>
+        <span class="nav__bar"></span>
+      </button>
+    </nav>
+
+    <div
+      class="toast"
+      id="toast"
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+    ></div>
+
+    <main id="main">
+      <!-- HOME -->
+      <div class="page active" id="page-home" aria-label="Home">
+        <section class="hero" aria-labelledby="hero-heading">
+          <div class="hero__bg" aria-hidden="true"></div>
+          <div class="hero__overlay" aria-hidden="true"></div>
+          <div class="hero__inner">
+            <div class="hero__body">
+              <div class="hero__text">
+                <span class="hero__tag"
+                  >Premium Real Estate · Smart Investments</span
+                >
+                <h1 class="hero__h1" id="hero-heading">
+                  Where <em>Smart</em><br />Investors<br />Find Home
+                </h1>
+                <p class="hero__lead">
+                  Esthington Real Estate delivers luxury-grade service,
+                  data-backed investment intelligence, and transformative
+                  opportunities for every client we serve.
+                </p>
+                <div class="hero__actions">
+                  <button
+                    class="btn btn--orange"
+                    onclick="App.goto('properties')"
+                  >
+                    Explore Properties
+                  </button>
+                  <button
+                    class="btn btn--ghost-light"
+                    onclick="App.goto('contact')"
+                  >
+                    Book a Consultation
+                  </button>
+                </div>
+              </div>
+              <div class="hero__visual" aria-hidden="true">
+                <div class="hero__card">
+                  <img
+                    src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=920&q=75&auto=format"
+                    width="460"
+                    height="360"
+                    alt="Luxury highrise penthouse in Victoria Island, Lagos"
+                    fetchpriority="high"
+                  />
+                  <div class="hero__card-label">
+                    <strong>Victoria Island, Lagos</strong
+                    ><span>₦285,000,000 — Penthouse</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hero__stats" role="list" aria-label="Key statistics">
+              <div class="hero__stat" role="listitem">
+                <span
+                  class="hero__stat-num"
+                  data-count="1200"
+                  aria-label="Over 1200 properties sold"
+                  >0</span
+                ><span class="hero__stat-label">Properties Sold</span>
+              </div>
+              <div class="hero__stat" role="listitem">
+                <span
+                  class="hero__stat-num"
+                  data-count="98"
+                  aria-label="98 percent client satisfaction"
+                  >0</span
+                ><span class="hero__stat-label">Client Satisfaction %</span>
+              </div>
+              <div class="hero__stat" role="listitem">
+                <span
+                  class="hero__stat-num"
+                  data-count="14"
+                  aria-label="14 plus years of excellence"
+                  >0</span
+                ><span class="hero__stat-label">Years of Excellence</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero__scroll" aria-hidden="true">
+            <span>Scroll</span>
+            <div class="hero__scroll-line"></div>
+          </div>
+        </section>
+
+        <div class="marquee" aria-hidden="true" role="presentation">
+          <div class="marquee__track">
+            <span class="marquee__item">Residential Properties</span
+            ><span class="marquee__item">Commercial Real Estate</span
+            ><span class="marquee__item">Investment Portfolio</span
+            ><span class="marquee__item">Property Management</span
+            ><span class="marquee__item">Market Intelligence</span
+            ><span class="marquee__item">Luxury Listings</span
+            ><span class="marquee__item">Smart Investments</span>
+            <span class="marquee__item">Residential Properties</span
+            ><span class="marquee__item">Commercial Real Estate</span
+            ><span class="marquee__item">Investment Portfolio</span
+            ><span class="marquee__item">Property Management</span
+            ><span class="marquee__item">Market Intelligence</span
+            ><span class="marquee__item">Luxury Listings</span
+            ><span class="marquee__item">Smart Investments</span>
+          </div>
+        </div>
+
+        <section class="section" aria-labelledby="why-title">
+          <div class="container">
+            <div class="reveal">
+              <span class="eyebrow">Why Choose Esthington</span>
+              <h2 class="heading-xl" id="why-title">
+                The Smart Investor's <em>Advantage</em>
+              </h2>
+              <div class="divider"></div>
+              <p class="body-lead">
+                We combine market expertise with genuine commitment to client
+                success — delivering results as rewarding as they are reliable.
+              </p>
+            </div>
+          </div>
+          <div class="features-grid reveal" role="list">
+            <article class="feature-card" role="listitem">
+              <div class="feature-card__icon" aria-hidden="true">
+                <svg width="26" height="26" fill="none" viewBox="0 0 26 26">
+                  <rect
+                    x="2"
+                    y="13"
+                    width="5"
+                    height="10"
+                    rx="1"
+                    stroke="#5B2D8E"
+                    stroke-width="2"
+                  />
+                  <rect
+                    x="10"
+                    y="8"
+                    width="5"
+                    height="15"
+                    rx="1"
+                    stroke="#5B2D8E"
+                    stroke-width="2"
+                  />
+                  <rect
+                    x="18"
+                    y="3"
+                    width="5"
+                    height="20"
+                    rx="1"
+                    stroke="#5B2D8E"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M2 10 L10 5 L18 2"
+                    stroke="#F5A623"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="feature-card__title">Data-Driven Intelligence</h3>
+              <p class="feature-card__text">
+                Our market analysis tools give every smart investor the edge
+                needed to make confident, profitable decisions.
+              </p>
+            </article>
+            <article class="feature-card" role="listitem">
+              <div class="feature-card__icon" aria-hidden="true">
+                <svg width="26" height="26" fill="none" viewBox="0 0 26 26">
+                  <circle
+                    cx="13"
+                    cy="13"
+                    r="10"
+                    stroke="#5B2D8E"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M13 6 L13 13 L18 16"
+                    stroke="#F5A623"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="feature-card__title">Luxury-Grade Service</h3>
+              <p class="feature-card__text">
+                Every client receives the gold standard in personalised
+                attention — from first consultation to final handshake.
+              </p>
+            </article>
+            <article class="feature-card" role="listitem">
+              <div class="feature-card__icon" aria-hidden="true">
+                <svg width="26" height="26" fill="none" viewBox="0 0 26 26">
+                  <path
+                    d="M13 2 L16 10 H24 L18 15 L20 23 L13 18 L6 23 L8 15 L2 10 H10 Z"
+                    stroke="#5B2D8E"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="feature-card__title">Curated Opportunities</h3>
+              <p class="feature-card__text">
+                We source only the highest-performing properties, hand-selected
+                to match your investment goals.
+              </p>
+            </article>
+            <article class="feature-card" role="listitem">
+              <div class="feature-card__icon" aria-hidden="true">
+                <svg width="26" height="26" fill="none" viewBox="0 0 26 26">
+                  <rect
+                    x="2"
+                    y="5"
+                    width="22"
+                    height="16"
+                    rx="2"
+                    stroke="#5B2D8E"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M8 13 L11 16 L18 10"
+                    stroke="#F5A623"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="feature-card__title">Full Transparency</h3>
+              <p class="feature-card__text">
+                We lead with honesty at every transaction — no hidden clauses,
+                no fine-print surprises.
+              </p>
+            </article>
+            <article class="feature-card" role="listitem">
+              <div class="feature-card__icon" aria-hidden="true">
+                <svg width="26" height="26" fill="none" viewBox="0 0 26 26">
+                  <circle
+                    cx="9"
+                    cy="9"
+                    r="6"
+                    stroke="#5B2D8E"
+                    stroke-width="2"
+                  />
+                  <circle
+                    cx="19"
+                    cy="17"
+                    r="6"
+                    stroke="#5B2D8E"
+                    stroke-width="2"
+                  />
+                  <circle cx="9" cy="9" r="2.5" fill="#F5A623" opacity=".6" />
+                  <circle cx="19" cy="17" r="2.5" fill="#F5A623" opacity=".6" />
+                </svg>
+              </div>
+              <h3 class="feature-card__title">Portfolio Growth</h3>
+              <p class="feature-card__text">
+                We craft strategies that compound your wealth intelligently over
+                time.
+              </p>
+            </article>
+            <article class="feature-card" role="listitem">
+              <div class="feature-card__icon" aria-hidden="true">
+                <svg width="26" height="26" fill="none" viewBox="0 0 26 26">
+                  <path
+                    d="M13 3 L19 7 L19 18 L13 22 L7 18 L7 7 Z"
+                    stroke="#5B2D8E"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13 3 L13 22"
+                    stroke="#F5A623"
+                    stroke-width="1.5"
+                    opacity=".6"
+                  />
+                </svg>
+              </div>
+              <h3 class="feature-card__title">End-to-End Support</h3>
+              <p class="feature-card__text">
+                Legal guidance, financial structuring, property management —
+                every step of your journey covered.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section
+          class="section section--tint"
+          aria-labelledby="about-preview-title"
+        >
+          <div class="container">
+            <div class="about-split">
+              <div class="about-media reveal" aria-hidden="true">
+                <div class="about-media__main">
+                  <img
+                    src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=75&auto=format"
+                    width="400"
+                    height="416"
+                    alt="Lagos city skyline at sunset"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="about-media__accent">
+                  <img
+                    src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=75&auto=format"
+                    width="280"
+                    height="281"
+                    alt="Luxury property interior"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="about-media__badge">
+                  <strong>14+</strong><span>Years of<br />Excellence</span>
+                </div>
+              </div>
+              <div class="reveal">
+                <span class="eyebrow">Our Story</span>
+                <h2 class="heading-xl" id="about-preview-title">
+                  Making Smart Real Estate <em>Accessible</em>
+                </h2>
+                <div class="divider"></div>
+                <p class="body-para">
+                  Esthington was founded on a singular belief — every client
+                  deserves the same quality of guidance, intelligence, and
+                  service once reserved for the ultra-wealthy.
+                </p>
+                <p class="body-para mb-8">
+                  Today we serve first-time home buyers and seasoned investors
+                  alike, bringing data-driven clarity to every conversation.
+                </p>
+                <div
+                  class="about-values"
+                  role="list"
+                  aria-label="Our core values"
+                >
+                  <div class="value-pill" role="listitem">Integrity-First</div>
+                  <div class="value-pill" role="listitem">
+                    Excellence Always
+                  </div>
+                  <div class="value-pill" role="listitem">
+                    Client Empowerment
+                  </div>
+                  <div class="value-pill" role="listitem">Data-Driven</div>
+                  <div class="value-pill" role="listitem">
+                    Inclusive Service
+                  </div>
+                  <div class="value-pill" role="listitem">Innovation</div>
+                </div>
+                <div class="about-cta">
+                  <button class="btn btn--purple" onclick="App.goto('about')">
+                    Discover Our Story
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="featured-title">
+          <div class="container">
+            <div class="section-header-row reveal">
+              <div>
+                <span class="eyebrow">Handpicked For You</span>
+                <h2 class="heading-xl mb-0" id="featured-title">
+                  Featured <em>Properties</em>
+                </h2>
+              </div>
+              <button
+                class="btn btn--purple"
+                onclick="App.goto('properties')"
+                aria-label="View all properties"
+              >
+                View All →
+              </button>
+            </div>
+            <div
+              class="prop-grid reveal"
+              id="homePropGrid"
+              role="list"
+              aria-label="Featured properties"
+            ></div>
+          </div>
+        </section>
+
+        <section
+          class="section section--tint"
+          style="overflow: hidden"
+          aria-labelledby="testi-title"
+        >
+          <div class="container reveal">
+            <span class="eyebrow">Client Stories</span>
+            <h2 class="heading-xl" id="testi-title">
+              What Our Clients <em>Say</em>
+            </h2>
+            <div class="divider"></div>
+          </div>
+          <div
+            class="testi-wrap"
+            style="margin-top: 40px"
+            role="region"
+            aria-label="Client testimonials carousel"
+          >
+            <div class="testi-track" id="testiTrack" aria-live="off"></div>
+          </div>
+        </section>
+
+        <section class="cta-banner reveal" aria-labelledby="cta-home-title">
+          <h2 class="cta-banner__title" id="cta-home-title">
+            Ready to Make Your <em>Smartest Move?</em>
+          </h2>
+          <p class="cta-banner__text">
+            Whether buying your first home or scaling your portfolio —
+            Esthington is your trusted partner at every step.
+          </p>
+          <div class="cta-banner__actions">
+            <button class="btn btn--orange" onclick="App.goto('contact')">
+              Book a Free Consultation</button
+            ><button
+              class="btn btn--ghost-light"
+              onclick="App.goto('properties')"
+            >
+              Browse Properties
+            </button>
+          </div>
+        </section>
+        <footer class="footer" id="footer-home" role="contentinfo"></footer>
+      </div>
+
+      <!-- ABOUT -->
+      <div
+        class="page"
+        id="page-about"
+        aria-label="About Esthington Real Estate"
+      >
+        <div class="page-hero">
+          <div class="page-hero__bg" aria-hidden="true">
+            <img
+              src="https://images.unsplash.com/photo-1444723121867-7a241cacace9?w=1400&q=70&auto=format"
+              width="1400"
+              height="700"
+              alt="Lagos city skyline aerial view"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div class="page-hero__inner">
+            <span class="eyebrow" style="color: var(--clr-orange)"
+              >Who We Are</span
+            >
+            <h1 class="page-hero__h1">
+              Built on Trust.<br /><em>Driven by Data.</em>
+            </h1>
+            <p class="page-hero__lead">
+              A full-service real estate company dedicated to empowering every
+              client — from first-time buyers to seasoned multi-asset investors.
+            </p>
+          </div>
+        </div>
+        <section class="section" aria-labelledby="mission-title">
+          <div class="container">
+            <div class="about-split">
+              <div class="reveal">
+                <span class="eyebrow">Our Mission</span>
+                <h2 class="heading-xl" id="mission-title">
+                  To Make Smart Real Estate <em>Accessible</em>
+                </h2>
+                <div class="divider"></div>
+                <p class="body-para">
+                  We deliver luxury-grade service, trustworthy guidance, and
+                  transformative investment opportunities for every client —
+                  regardless of where they are in their journey.
+                </p>
+                <p class="body-para">
+                  Our data-driven approach means every recommendation is backed
+                  by market intelligence, not guesswork.
+                </p>
+              </div>
+              <div class="reveal">
+                <div class="stats-row" role="list">
+                  <div class="stat-box" role="listitem">
+                    <p class="stat-box__num">1,200+</p>
+                    <p class="stat-box__label">Properties Sold</p>
+                  </div>
+                  <div class="stat-box" role="listitem">
+                    <p class="stat-box__num">98%</p>
+                    <p class="stat-box__label">Client Satisfaction</p>
+                  </div>
+                  <div class="stat-box" role="listitem">
+                    <p class="stat-box__num">₦50B+</p>
+                    <p class="stat-box__label">Value Transacted</p>
+                  </div>
+                  <div class="stat-box" role="listitem">
+                    <p class="stat-box__num">14+</p>
+                    <p class="stat-box__label">Years of Excellence</p>
+                  </div>
+                </div>
+                <div class="office-img mt-6">
+                  <img
+                    src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=700&q=75&auto=format"
+                    width="700"
+                    height="240"
+                    alt="Esthington office building"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="values-strip section--navy"
+          aria-labelledby="values-title"
+        >
+          <div class="container">
+            <div class="reveal" style="text-align: center">
+              <span class="eyebrow">What We Stand For</span>
+              <h2 class="heading-xl heading-xl--light" id="values-title">
+                Our Core <em style="color: var(--clr-orange)">Values</em>
+              </h2>
+              <div class="divider divider--center"></div>
+            </div>
+            <div class="values-grid reveal" role="list">
+              <div class="value-card" role="listitem">
+                <div class="value-card__icon" aria-hidden="true">⚖️</div>
+                <h3 class="value-card__title">Integrity</h3>
+                <p class="value-card__text">
+                  We lead with honesty and transparency in every transaction.
+                </p>
+              </div>
+              <div class="value-card" role="listitem">
+                <div class="value-card__icon" aria-hidden="true">🏆</div>
+                <h3 class="value-card__title">Excellence</h3>
+                <p class="value-card__text">
+                  We hold ourselves to the highest standard in everything we do.
+                </p>
+              </div>
+              <div class="value-card" role="listitem">
+                <div class="value-card__icon" aria-hidden="true">💡</div>
+                <h3 class="value-card__title">Empowerment</h3>
+                <p class="value-card__text">
+                  We educate clients to make confident decisions.
+                </p>
+              </div>
+              <div class="value-card" role="listitem">
+                <div class="value-card__icon" aria-hidden="true">🤝</div>
+                <h3 class="value-card__title">Inclusivity</h3>
+                <p class="value-card__text">
+                  We serve buyers, sellers, and investors at every stage.
+                </p>
+              </div>
+              <div class="value-card" role="listitem">
+                <div class="value-card__icon" aria-hidden="true">🚀</div>
+                <h3 class="value-card__title">Innovation</h3>
+                <p class="value-card__text">
+                  We leverage data and technology to stay ahead.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section" aria-labelledby="team-title">
+          <div class="container">
+            <div class="reveal" style="margin-bottom: 48px">
+              <span class="eyebrow">The People Behind Esthington</span>
+              <h2 class="heading-xl" id="team-title">
+                Meet Our <em>Expert</em> Team
+              </h2>
+              <div class="divider"></div>
+              <p class="body-lead">
+                A hand-picked team of industry veterans, data strategists, and
+                client advocates committed to your success.
+              </p>
+            </div>
+            <div class="team-grid reveal" role="list">
+              <article class="team-card" role="listitem">
+                <div class="team-card__img">
+                  <img
+                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=75&auto=format"
+                    width="400"
+                    height="260"
+                    alt="Emmanuel Okafor, CEO and Founder"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="team-card__info">
+                  <h3 class="team-card__name">Emmanuel Okafor</h3>
+                  <p class="team-card__role">CEO &amp; Founder</p>
+                </div>
+              </article>
+              <article class="team-card" role="listitem">
+                <div class="team-card__img">
+                  <img
+                    src="https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?w=400&q=75&auto=format"
+                    width="400"
+                    height="260"
+                    alt="Fatima Adeyemi, Head of Investments"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="team-card__info">
+                  <h3 class="team-card__name">Fatima Adeyemi</h3>
+                  <p class="team-card__role">Head of Investments</p>
+                </div>
+              </article>
+              <article class="team-card" role="listitem">
+                <div class="team-card__img">
+                  <img
+                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=75&auto=format"
+                    width="400"
+                    height="260"
+                    alt="Chukwuemeka Uba, Chief Property Advisor"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="team-card__info">
+                  <h3 class="team-card__name">Chukwuemeka Uba</h3>
+                  <p class="team-card__role">Chief Property Advisor</p>
+                </div>
+              </article>
+              <article class="team-card" role="listitem">
+                <div class="team-card__img">
+                  <img
+                    src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=400&q=75&auto=format"
+                    width="400"
+                    height="260"
+                    alt="Amina Ibrahim, Market Intelligence Lead"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="team-card__info">
+                  <h3 class="team-card__name">Amina Ibrahim</h3>
+                  <p class="team-card__role">Market Intelligence Lead</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="cta-banner reveal" aria-labelledby="cta-about-title">
+          <h2 class="cta-banner__title" id="cta-about-title">
+            Join the <em>Esthington</em> Family
+          </h2>
+          <p class="cta-banner__text">
+            Thousands of satisfied clients have trusted us with their most
+            significant decisions. Let us earn your trust too.
+          </p>
+          <div class="cta-banner__actions">
+            <button class="btn btn--orange" onclick="App.goto('contact')">
+              Get in Touch
+            </button>
+          </div>
+        </section>
+        <footer class="footer" id="footer-about" role="contentinfo"></footer>
+      </div>
+
+      <!-- SERVICES -->
+      <div class="page" id="page-services" aria-label="Our Services">
+        <div class="page-hero">
+          <div class="page-hero__bg" aria-hidden="true">
+            <img
+              src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1400&q=70&auto=format"
+              width="1400"
+              height="600"
+              alt="Luxury modern property exterior"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div class="page-hero__inner">
+            <span class="eyebrow" style="color: var(--clr-orange)"
+              >What We Offer</span
+            >
+            <h1 class="page-hero__h1">Our <em>Services</em></h1>
+            <p class="page-hero__lead">
+              From first-time home buying to complex multi-asset investment
+              strategies — we have the expertise to guide you every step of the
+              way.
+            </p>
+          </div>
+        </div>
+        <section class="section" aria-labelledby="svc-title">
+          <div class="container">
+            <h2
+              class="heading-xl reveal"
+              id="svc-title"
+              style="margin-bottom: 40px"
+            >
+              What We <em>Do Best</em>
+            </h2>
+            <div class="svc-grid reveal" role="list">
+              <article class="svc-card" role="listitem">
+                <span class="svc-card__num" aria-hidden="true">01</span>
+                <h3 class="svc-card__title">
+                  Residential Sales &amp; Purchases
+                </h3>
+                <p class="svc-card__text">
+                  Our agents guide you through every stage — from property
+                  search and valuation to negotiation and close.
+                </p>
+              </article>
+              <article class="svc-card" role="listitem">
+                <span class="svc-card__num" aria-hidden="true">02</span>
+                <h3 class="svc-card__title">Commercial Real Estate</h3>
+                <p class="svc-card__text">
+                  Our commercial team has deep market knowledge and an extensive
+                  portfolio of prime listings.
+                </p>
+              </article>
+              <article class="svc-card" role="listitem">
+                <span class="svc-card__num" aria-hidden="true">03</span>
+                <h3 class="svc-card__title">Investment Advisory</h3>
+                <p class="svc-card__text">
+                  Data-backed insights on market performance, yield projections,
+                  and portfolio composition.
+                </p>
+              </article>
+              <article class="svc-card" role="listitem">
+                <span class="svc-card__num" aria-hidden="true">04</span>
+                <h3 class="svc-card__title">Property Management</h3>
+                <p class="svc-card__text">
+                  We handle tenant acquisition, rent collection, maintenance
+                  coordination, and compliance reporting.
+                </p>
+              </article>
+              <article class="svc-card" role="listitem">
+                <span class="svc-card__num" aria-hidden="true">05</span>
+                <h3 class="svc-card__title">Market Intelligence Reports</h3>
+                <p class="svc-card__text">
+                  Quarterly deep-dive analysis of property trends, price
+                  movements, and investment hotspots.
+                </p>
+              </article>
+              <article class="svc-card" role="listitem">
+                <span class="svc-card__num" aria-hidden="true">06</span>
+                <h3 class="svc-card__title">
+                  Legal &amp; Financial Structuring
+                </h3>
+                <p class="svc-card__text">
+                  Vetted legal and financial professionals to ensure every
+                  transaction is properly structured.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="section section--tint" aria-labelledby="process-title">
+          <div class="container">
+            <div class="reveal" style="text-align: center; margin-bottom: 52px">
+              <span class="eyebrow">How It Works</span>
+              <h2 class="heading-xl" id="process-title">
+                Your Journey with <em>Esthington</em>
+              </h2>
+              <div class="divider divider--center"></div>
+            </div>
+            <div class="process-row reveal" role="list">
+              <div class="process-step" role="listitem">
+                <div
+                  class="process-step__num"
+                  style="background: var(--clr-purple)"
+                  aria-label="Step 1"
+                >
+                  1
+                </div>
+                <h3 class="process-step__title">Discovery Call</h3>
+                <p class="process-step__text">
+                  We listen to understand your goals, budget, and timeline in
+                  full.
+                </p>
+              </div>
+              <div class="process-step" role="listitem">
+                <div
+                  class="process-step__num"
+                  style="background: var(--clr-purple)"
+                  aria-label="Step 2"
+                >
+                  2
+                </div>
+                <h3 class="process-step__title">Curated Selection</h3>
+                <p class="process-step__text">
+                  We present a tailored shortlist of properties or investment
+                  options.
+                </p>
+              </div>
+              <div class="process-step" role="listitem">
+                <div
+                  class="process-step__num"
+                  style="background: var(--clr-orange)"
+                  aria-label="Step 3"
+                >
+                  3
+                </div>
+                <h3 class="process-step__title">Due Diligence</h3>
+                <p class="process-step__text">
+                  We verify, validate, and structure the deal to protect your
+                  interests.
+                </p>
+              </div>
+              <div class="process-step" role="listitem">
+                <div
+                  class="process-step__num"
+                  style="background: var(--clr-navy)"
+                  aria-label="Step 4"
+                >
+                  4
+                </div>
+                <h3 class="process-step__title">Successful Close</h3>
+                <p class="process-step__text">
+                  Keys in hand. Portfolio expanded. We celebrate your win with
+                  you.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section" aria-labelledby="concierge-title">
+          <div class="container">
+            <div class="about-split reveal">
+              <div>
+                <img
+                  class="concierge-img"
+                  src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=700&q=75&auto=format"
+                  width="700"
+                  height="380"
+                  alt="Esthington advisor consulting a client"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div>
+                <span class="eyebrow">Premium Experience</span>
+                <h2 class="heading-xl" id="concierge-title">
+                  Every Client Gets <em>Concierge-Level</em> Care
+                </h2>
+                <div class="divider"></div>
+                <p class="body-para mb-8">
+                  Every Esthington client receives a fully personalised strategy
+                  session, a dedicated advisor, and access to exclusive
+                  off-market listings.
+                </p>
+                <button class="btn btn--purple" onclick="App.goto('contact')">
+                  Book Your Free Session
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cta-banner reveal" aria-labelledby="cta-svc-title">
+          <h2 class="cta-banner__title" id="cta-svc-title">
+            Ready to Get <em>Started?</em>
+          </h2>
+          <p class="cta-banner__text">
+            Book your free discovery call. No pressure, no obligation — just
+            clarity about your next best move.
+          </p>
+          <div class="cta-banner__actions">
+            <button class="btn btn--orange" onclick="App.goto('contact')">
+              Book a Free Call
+            </button>
+          </div>
+        </section>
+        <footer class="footer" id="footer-services" role="contentinfo"></footer>
+      </div>
+
+      <!-- PROPERTIES -->
+      <div class="page" id="page-properties" aria-label="Property Listings">
+        <div class="page-hero">
+          <div class="page-hero__bg" aria-hidden="true">
+            <img
+              src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1400&q=70&auto=format"
+              width="1400"
+              height="600"
+              alt="Row of luxury residential homes"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div class="page-hero__inner">
+            <span class="eyebrow" style="color: var(--clr-orange)"
+              >Curated Listings</span
+            >
+            <h1 class="page-hero__h1">Our <em>Properties</em></h1>
+            <p class="page-hero__lead">
+              Handpicked properties across Lagos — each one vetted, valued, and
+              ready to move.
+            </p>
+          </div>
+        </div>
+        <div
+          class="filter-bar"
+          role="toolbar"
+          aria-label="Filter and sort properties"
+        >
+          <span class="filter-bar__label" id="filter-label">Filter:</span>
+          <div class="filter-group" role="group" aria-labelledby="filter-label">
+            <button
+              class="filter-btn active"
+              onclick="App.filterProperties(this, 'all')"
+              aria-pressed="true"
+            >
+              All
+            </button>
+            <button
+              class="filter-btn"
+              onclick="App.filterProperties(this, 'sale')"
+              aria-pressed="false"
+            >
+              For Sale
+            </button>
+            <button
+              class="filter-btn"
+              onclick="App.filterProperties(this, 'rent')"
+              aria-pressed="false"
+            >
+              For Rent
+            </button>
+            <button
+              class="filter-btn"
+              onclick="App.filterProperties(this, 'investment')"
+              aria-pressed="false"
+            >
+              Investment
+            </button>
+            <button
+              class="filter-btn"
+              onclick="App.filterProperties(this, 'commercial')"
+              aria-pressed="false"
+            >
+              Commercial
+            </button>
+          </div>
+          <label for="sortSelect" class="sr-only">Sort properties</label>
+          <select class="filter-select" id="sortSelect">
+            <option value="featured">Featured First</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+          </select>
+        </div>
+        <div class="props-list">
+          <div
+            class="prop-grid"
+            id="allPropsGrid"
+            role="list"
+            aria-label="All property listings"
+          ></div>
+        </div>
+        <footer
+          class="footer"
+          id="footer-properties"
+          role="contentinfo"
+        ></footer>
+      </div>
+
+      <!-- SINGLE PROPERTY -->
+      <div class="page" id="page-single" aria-label="Property Detail">
+        <div class="single-hero">
+          <img
+            class="single-hero__img"
+            id="singleHeroImg"
+            alt=""
+            width="1400"
+            height="700"
+            decoding="async"
+          />
+          <div class="single-hero__overlay" aria-hidden="true"></div>
+          <div
+            style="
+              position: absolute;
+              bottom: 0;
+              inset-inline: 0;
+              max-width: calc(var(--max-w) + 96px);
+              margin-inline: auto;
+            "
+          >
+            <div class="single-hero__info">
+              <div class="single-hero__badge" id="sBadge"></div>
+              <h1 class="single-hero__title" id="sTitle"></h1>
+              <p class="single-hero__price" id="sPrice"></p>
+              <p class="single-hero__loc" id="sLoc"></p>
+            </div>
+          </div>
+        </div>
+        <div class="single-body">
+          <div>
+            <button
+              class="back-btn"
+              onclick="App.goto('properties')"
+              aria-label="Back to all properties"
+            >
+              ← Back to Properties
+            </button>
+            <div
+              class="detail-specs"
+              id="sSpecs"
+              role="list"
+              aria-label="Property specifications"
+            ></div>
+            <h2 class="section-h2">Property Overview</h2>
+            <p id="sDesc" class="body-para mb-8"></p>
+            <h2 class="section-h3">Key Features</h2>
+            <div
+              class="features-list"
+              id="sFeats"
+              role="list"
+              aria-label="Property features"
+            ></div>
+            <h2 class="section-h3 mt-8">Gallery</h2>
+            <div
+              class="gallery-grid"
+              id="sGallery"
+              role="list"
+              aria-label="Property gallery"
+            ></div>
+          </div>
+          <aside class="prop-sidebar" aria-label="Book a viewing">
+            <div class="sidebar-box">
+              <h2 class="sidebar-box__title">Book a Viewing</h2>
+              <p class="sidebar-box__note">
+                Interested? Book a private viewing with one of our expert
+                advisors.
+              </p>
+              <form onsubmit="App.handleViewing(event)" novalidate>
+                <div class="form-group">
+                  <label for="vName">Your Name</label
+                  ><input
+                    type="text"
+                    id="vName"
+                    name="name"
+                    placeholder="Full Name"
+                    autocomplete="name"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="vPhone">Phone Number</label
+                  ><input
+                    type="tel"
+                    id="vPhone"
+                    name="phone"
+                    placeholder="+234..."
+                    autocomplete="tel"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="vDate">Preferred Date</label
+                  ><input type="date" id="vDate" name="date" required />
+                </div>
+                <button type="submit" class="form-submit">
+                  Request a Viewing
+                </button>
+              </form>
+              <div class="sidebar-callout">
+                <p class="sidebar-callout__label">Or call us directly:</p>
+                <p class="sidebar-callout__phone">
+                  <a href="tel:+2348000000000">+234 800 000 0000</a>
+                </p>
+              </div>
+            </div>
+            <div class="sidebar-tag">
+              <p class="sidebar-listed-label">Listed by</p>
+              <p class="sidebar-listed-name">Esthington Real Estate</p>
+              <p class="sidebar-listed-sub">Smart Investors Hub</p>
+            </div>
+          </aside>
+        </div>
+        <footer class="footer" id="footer-single" role="contentinfo"></footer>
+      </div>
+
+      <!-- CONTACT -->
+      <div
+        class="page"
+        id="page-contact"
+        aria-label="Contact Esthington Real Estate"
+      >
+        <div class="page-hero">
+          <div class="page-hero__bg" aria-hidden="true">
+            <img
+              src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1400&q=70&auto=format"
+              width="1400"
+              height="600"
+              alt="Modern office building exterior"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div class="page-hero__inner">
+            <span class="eyebrow" style="color: var(--clr-orange)"
+              >Get in Touch</span
+            >
+            <h1 class="page-hero__h1">
+              Let's Start Your<br /><em>Journey</em>
+            </h1>
+            <p class="page-hero__lead">
+              Whether you have a question, want to book a consultation, or are
+              ready to list your property — we're here for you.
+            </p>
+          </div>
+        </div>
+        <div class="contact-layout">
+          <div class="reveal">
+            <h2 class="contact-info-h2">Contact Information</h2>
+            <address style="font-style: normal">
+              <div class="contact-item">
+                <div class="contact-item__icon" aria-hidden="true">
+                  <svg width="22" height="22" fill="none" viewBox="0 0 24 24">
+                    <path
+                      d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                      fill="#5B2D8E"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <p class="contact-item__label">Our Office</p>
+                  <p class="contact-item__value">
+                    12 Marina Way, Victoria Island<br />Lagos, Nigeria
+                  </p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item__icon" aria-hidden="true">
+                  <svg width="22" height="22" fill="none" viewBox="0 0 24 24">
+                    <path
+                      d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
+                      fill="#5B2D8E"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <p class="contact-item__label">Phone</p>
+                  <p class="contact-item__value">
+                    <a
+                      href="tel:+2348000000000"
+                      style="color: inherit; text-decoration: none"
+                      >+234 800 000 0000</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item__icon" aria-hidden="true">
+                  <svg width="22" height="22" fill="none" viewBox="0 0 24 24">
+                    <path
+                      d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+                      fill="#5B2D8E"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <p class="contact-item__label">Email</p>
+                  <p class="contact-item__value">
+                    <a
+                      href="mailto:hello@esthington.com"
+                      style="color: inherit; text-decoration: none"
+                      >hello@esthington.com</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item__icon" aria-hidden="true">
+                  <svg width="22" height="22" fill="none" viewBox="0 0 24 24">
+                    <path
+                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm.5 5v5.25l4.5 2.67-.75 1.23L11 13V7h1.5z"
+                      fill="#5B2D8E"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <p class="contact-item__label">Office Hours</p>
+                  <p class="contact-item__value">
+                    Mon–Fri: 8:00am – 6:00pm<br />Saturday: 9:00am – 2:00pm
+                  </p>
+                </div>
+              </div>
+            </address>
+            <div class="map-preview">
+              <img
+                class="map-preview__img"
+                src="https://images.unsplash.com/photo-1577495508326-19a1b3cf65b9?w=600&q=75&auto=format"
+                width="600"
+                height="200"
+                alt="Victoria Island Lagos aerial view"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="map-preview__caption">
+                <p class="map-preview__caption-title">Victoria Island, Lagos</p>
+                <p class="map-preview__caption-sub">
+                  12 Marina Way, Victoria Island
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="form-card reveal">
+            <h2 class="form-card__title">Send Us a Message</h2>
+            <p class="form-card__sub">Our team will respond within 24 hours.</p>
+            <form
+              id="contactForm"
+              novalidate
+              onsubmit="App.handleContact(event)"
+            >
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="cfname"
+                    >First Name
+                    <span aria-hidden="true" class="required-mark"
+                      >*</span
+                    ></label
+                  ><input
+                    type="text"
+                    id="cfname"
+                    name="firstName"
+                    placeholder="John"
+                    autocomplete="given-name"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="clname"
+                    >Last Name
+                    <span aria-hidden="true" class="required-mark"
+                      >*</span
+                    ></label
+                  ><input
+                    type="text"
+                    id="clname"
+                    name="lastName"
+                    placeholder="Doe"
+                    autocomplete="family-name"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="cemail"
+                    >Email Address
+                    <span aria-hidden="true" class="required-mark"
+                      >*</span
+                    ></label
+                  ><input
+                    type="email"
+                    id="cemail"
+                    name="email"
+                    placeholder="john@example.com"
+                    autocomplete="email"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="cphone">Phone Number</label
+                  ><input
+                    type="tel"
+                    id="cphone"
+                    name="phone"
+                    placeholder="+234..."
+                    autocomplete="tel"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="cinterest">I Am Interested In</label
+                ><select id="cinterest" name="interest">
+                  <option value="">Select an option</option>
+                  <option value="buy">Buying a Property</option>
+                  <option value="rent">Renting a Property</option>
+                  <option value="invest">Investment Advisory</option>
+                  <option value="manage">Property Management</option>
+                  <option value="list">Listing My Property</option>
+                  <option value="other">General Enquiry</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="cbudget">Budget Range</label
+                ><select id="cbudget" name="budget">
+                  <option value="">Select a range</option>
+                  <option value="u50">Under ₦50M</option>
+                  <option value="50-100">₦50M – ₦100M</option>
+                  <option value="100-250">₦100M – ₦250M</option>
+                  <option value="250-500">₦250M – ₦500M</option>
+                  <option value="500+">Above ₦500M</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="cmessage">Your Message</label
+                ><textarea
+                  id="cmessage"
+                  name="message"
+                  rows="5"
+                  placeholder="Tell us about your real estate goals..."
+                ></textarea>
+              </div>
+              <button type="submit" class="form-submit">Send Message →</button>
+            </form>
+          </div>
+        </div>
+        <footer class="footer" id="footer-contact" role="contentinfo"></footer>
+      </div>
+    </main>
+
+    <script defer src="js/app.js"></script>
+  </body>
+</html>
